@@ -1,0 +1,63 @@
+body {
+    background-color: #fff;
+    font-family: 'roboto';
+}
+
+.header01 {
+    margin: auto;
+    padding-bottom: 50px;
+}
+.nav01 {
+    display: inline;
+    font-size: 30px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.nav02 {
+    color: rgb(0, 26, 255);
+}
+.nav02:hover {
+    color: #ff069a;
+}
+.nav02:active {
+    color: red;
+}
+.social {
+    color: rgb(0, 26, 255);
+    font-size: 20px;
+    text-align: center;
+}
+.social:hover {
+    color:red;
+}
+.mine01{
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    margin-left: 130px;
+}
+.me-01:hover {
+    color: red;
+}
+.me-012{
+    color: rgb(0, 26, 255);
+    text-align: center;
+}
+.me-012:hover {
+    color: red;
+}
+.h4-index{
+  text-align: center;
+  color: rgb(0, 26, 255);
+  font-size: 22px;
+  font-weight: 600;
+}
+.p {
+    font-size: 15px;
+    text-align: center;
+}
+.form {
+    text-align: center;
+}
