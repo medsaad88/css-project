@@ -2,6 +2,31 @@ body {
     background-color: #fff;
     font-family: 'roboto';
 }
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./background-img.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
 .header01 {
     margin: auto;
@@ -32,11 +57,9 @@ body {
 .social:hover {
     color:red;
 }
-.mine01{
-    width: 160px;
-    height: 160px;
-    align-items: center;
-    margin-left: 130px;
+
+.me-01 {
+    text-align: center;
 }
 .me-01:hover {
     color: red;
@@ -61,3 +84,67 @@ body {
 .form {
     text-align: center;
 }
+.vid {
+    width: 100%;
+
+}
+.soci {
+    display: grid;
+}
+.mywork {
+    column-count: 4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+.portfolioimg {
+    width: 320px;
+    height: 200px;
+  }
+.fig01 {
+ text-align: center;
+ color: navy;
+  }
+  .fig01:hover {
+    color: mediumvioletred;
+  }
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
